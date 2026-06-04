@@ -2,20 +2,23 @@
 
 ## Project Overview
 
-This project analyzes sales performance using MySQL and Excel Dashboarding techniques.
+This project analyzes sales data using MySQL and Excel to generate business insights and KPI reports.
 
 ## Tools Used
 
 * MySQL Workbench
-* Excel
-* GitHub
+* SQL
+* Microsoft Excel
+* Git & GitHub
 
 ## Dataset
 
-* Sales Data
+The dataset contains:
+
 * Customer Information
 * Product Information
-* Region Information
+* Regional Sales Data
+* Profit and Sales Metrics
 
 ## KPIs
 
@@ -23,40 +26,52 @@ This project analyzes sales performance using MySQL and Excel Dashboarding techn
 * Total Profit: ₹286K
 * Profit Margin: 12.47%
 
-## Key Insights
+## Business Insights
 
 ### Category Performance
 
 * Technology generated the highest sales and profit.
 * Office Supplies showed strong profitability.
-* Furniture generated high sales but low profit.
+* Furniture had high sales but low profit.
 
 ### Regional Performance
 
-* West Region achieved the highest sales and profit.
-* East Region ranked second.
-* Central Region showed lower profitability.
+* West region achieved the highest sales and profit.
+* East region ranked second.
+* Central region showed lower profitability.
 
-### Top Customer
+### Customer Analysis
 
-Sean Miller generated the highest sales revenue.
+Top customer:
 
-### Top Product
+* Sean Miller (₹25,043.07 sales)
 
-Canon imageCLASS 2200 Advanced Copier generated the highest sales.
+### Product Analysis
+
+Top product:
+
+* Canon imageCLASS 2200 Advanced Copier (₹61,599.83 sales)
 
 ## SQL Analysis
 
-* Database Creation
-* Data Cleaning
-* KPI Analysis
-* Customer Analysis
-* Product Analysis
-* Category Analysis
-* Region Analysis
+The project includes:
+
+* Database creation scripts
+* KPI queries
+* Sales analysis queries
+
+## Project Structure
+
+Sales-Analytics-Dashboard/
+├── data/
+├── sql/
+│ ├── database_creation.sql
+│ ├── kpi_queries.sql
+│ └── sales_queries.sql
+├── README.md
+└── requirements.txt
 
 ## Author
 
-Achanta Veera Kumari
-Final Year B.Tech Student
-Aspiring Data Analyst
+Veera Kumari
+Final-Year B.Tech Student
